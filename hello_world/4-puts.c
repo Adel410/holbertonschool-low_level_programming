@@ -9,6 +9,5 @@ int main(void)
 {
 char str[] = "\"Programming is like building a multilingual puzzle\n";
 puts(str);
-fprintf(stderr, '...');
 return (0);
 }
