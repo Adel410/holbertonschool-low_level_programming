@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- * main - Entry point 
- * Description : 'print a string without using the printf method' 
+ * main - Entry point
+ * Description : 'print a string without using the printf method'
  * Return: Always 0 (Success)
  */
 
