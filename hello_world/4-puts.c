@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main(str1)
+int main(void)
 {
 char str[] = "Programming is like building a multilingual puzzle\n";
 puts(str);
