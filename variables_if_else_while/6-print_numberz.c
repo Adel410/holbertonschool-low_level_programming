@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
  * print_numbers - Print numbers from 0 to 10 using putchar.
  */
