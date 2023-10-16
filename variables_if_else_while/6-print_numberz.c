@@ -5,9 +5,12 @@
  */
 int main(void)
 {
-	for (int i = 0; i <= 10; i++) {
-        putchar('0' + i);
-    }
-    putchar('\n');
+int n = 0;	
+while (n <= 10)
+{
+putchar('0' + n);
+n++;
+}
+putchar('\n');
 return 0;
 }
