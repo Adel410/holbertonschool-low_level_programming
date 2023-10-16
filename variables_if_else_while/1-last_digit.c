@@ -15,7 +15,7 @@ int main(void)
 	/* your code goes there */
 if (n == 0)
 {
-printf("Last digit of %d is %d and is 0\n", n, dernier_c);
+printf("Last digit of %d is 0 and is 0\n", n);
 }
 else if (n > 5)
 {
