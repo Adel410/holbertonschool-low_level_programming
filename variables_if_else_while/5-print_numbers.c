@@ -7,14 +7,6 @@
 
 int main(void)
 {
-int c, d;
-c = 0;
-d = 11;
-while (c != d)
-{
-putchar(c);
-c++;
-}
-putchar('\n');
+printf("0123456789");
 return (0);
 }
