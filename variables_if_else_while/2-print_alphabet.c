@@ -15,6 +15,7 @@ while (c != d)
 putchar(c);
 c++;
 }
+putchar(d);
 return (0);
 }
 
