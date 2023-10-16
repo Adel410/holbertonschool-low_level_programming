@@ -13,7 +13,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	dernier_c = n % 10;
 	/* your code goes there */
-if (n == 0)
+if (n = 0)
 {
 printf("Last digit of %d is %d and is 0\n", n, dernier_c);
 }
