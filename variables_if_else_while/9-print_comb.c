@@ -10,10 +10,10 @@ int n = 0;
 while (n != 10)
 {
 putchar(n + '0');
-n++;
-}
 putchar(',');
 putchar(' ');
+n++;
+}
 putchar('\n');
 return (0);
 }
