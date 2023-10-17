@@ -9,12 +9,12 @@ int main(void)
 {
 int seize = '0';
 char A = 'a';
-while (seize != 16)
+while (seize <= 16)
 {
 putchar(seize);
 seize++;
 }
-while (A != 'g')
+while (A <= 'g')
 {
 putchar(A);
 A++;
