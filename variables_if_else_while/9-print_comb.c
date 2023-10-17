@@ -10,13 +10,13 @@ int n = 0;
 while (n <= 10)
 {
 putchar(n + '0');
-putchar(',');
-putchar(' ');
 n++;
 if (n > 9)
 {
 break;
 }
+putchar(',');
+putchar(' ');
 }
 putchar('\n');
 return (0);
