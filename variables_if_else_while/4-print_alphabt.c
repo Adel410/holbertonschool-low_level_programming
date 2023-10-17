@@ -5,13 +5,14 @@
  * Return: always 0 (success)
  */
 
-int main() {
-	for (char letter = 'a'; letter <= 'z'; letter++) {
-if (letter != 'q' && letter != 'e') {
+int main(void) {
+char letter = 'a';
+while (letter <= 'z') {
+if (letter != exclude) {
 putchar(letter);
 }
+letter++;
 }
-
-putchar('\n'); // Add a newline character to separate the output from the prompt.
+putchar('\n');
 return 0;
 }
