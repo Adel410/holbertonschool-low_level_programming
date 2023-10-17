@@ -13,7 +13,7 @@ putchar(n + '0');
 putchar(',');
 putchar(' ');
 n++;
-if (n == 9)
+if (n > 9)
 {
 break;
 }
