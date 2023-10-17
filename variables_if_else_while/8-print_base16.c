@@ -12,7 +12,7 @@ char A = 'a';
 while (n <= 16)
 {
 putchar(n + 0);
-seize++;
+n++;
 }
 while (A <= 'f')
 {
