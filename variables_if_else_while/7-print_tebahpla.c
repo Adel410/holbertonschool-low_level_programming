@@ -8,8 +8,8 @@
 
 int main(void)
 {
-char Z = '{';
-char A = 'a';
+char Z = 'z';
+char A = '`';
 while (Z != A)
 {
 putchar(Z);
