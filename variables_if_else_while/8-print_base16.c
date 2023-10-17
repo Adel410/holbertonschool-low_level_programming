@@ -11,7 +11,7 @@ int n = '0';
 char A = 'a';
 while (n <= 16)
 {
-putchar(n + 0);
+putchar('0' + n);
 n++;
 }
 while (A <= 'f')
