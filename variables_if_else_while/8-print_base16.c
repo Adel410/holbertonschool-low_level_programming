@@ -7,11 +7,11 @@
 
 int main(void)
 {
-int seize = '0';
+int n = '0';
 char A = 'a';
-while (seize <= 16)
+while (n <= 16)
 {
-putchar(seize + '0');
+putchar(n + 0);
 seize++;
 }
 while (A <= 'f')
