@@ -9,7 +9,7 @@ int main(void)
 {
 int n = 0;
 char A = 'a';
-while (n <= 16)
+while (n <= 10)
 {
 putchar('0' + n);
 n++;
