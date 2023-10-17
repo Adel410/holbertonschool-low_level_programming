@@ -7,8 +7,10 @@
 
 int main(void) {
 char letter = 'a';
+char exclude ='q';
+char exclude1 = 'e';
 while (letter <= 'z') {
-if (letter != exclude) {
+if (letter != exclude && letter != exclude1) {
 putchar(letter);
 }
 letter++;
