@@ -7,12 +7,17 @@
 
 int main(void)
 {
-char seize = '0';
-
-while (seize <= 16)
+int seize = '0';
+char A = 'a';
+while (seize != 16)
 {
 putchar(seize);
 seize++;
+}
+while (A != 'g')
+{
+putchar(A);
+A++;
 }
 putchar('\n');
 return (0);
