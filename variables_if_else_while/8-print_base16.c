@@ -11,10 +11,10 @@ int seize = '0';
 char A = 'a';
 while (seize <= 16)
 {
-putchar(seize);
+putchar(seize + '0');
 seize++;
 }
-while (A <= 'g')
+while (A <= 'f')
 {
 putchar(A);
 A++;
