@@ -12,9 +12,9 @@ char c = 'a';
 char d = '{';
 while (c != d)
 {
-_putchar(c);
+int i = _putchar(c);
 c++;
 }
-_putchar('\n');
+int i = _putchar('\n');
 return;
 }
