@@ -5,15 +5,15 @@
  * Return: always 0 (succes)
  */
 
-int _abs(int)
+int _abs(int c)
 {
-	if (int < 0)
+	if (c < 0)
 	{
-		_putchar(int);
+		_putchar(c);
 	}
 	else
 	{
-		_putchar(int);
+		_putchar(c);
 	}
 return (0);
 }
