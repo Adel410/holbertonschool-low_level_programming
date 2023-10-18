@@ -11,11 +11,11 @@ void print_alphabet_x10(void)
 	char f = '\n';
 	for (c = c; c <= 'z'; c++)
 	{
+		_putchar(c);
 		for (f = 1; f <= 10; f++)
 		{
-			_putchar(c);
+			_putchar(f);
 		}
-	_putchar('\n');
 	}
 	
 return;
