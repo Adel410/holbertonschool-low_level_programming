@@ -1,4 +1,20 @@
+#include <unistd.h>
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
 
-hell
-:wq
 
+
+void print_alphabet(void)
+{
+char c = 'a';
+char d = '{';
+while (c != d)
+{
+_putchar(c);
+c++;
+}
+_putchar('\n');
+return;
+}
