@@ -1,11 +1,16 @@
 #include "main.h"
 /**
- * main - check the code
+ * main - print the alphabet using _putchar function
  *
- * Return: Always 0.
+ * Return: always 0 (success)
  */
 int main(void)
 {
-	print_alphabet();
-	return (0);
+char c = 'a';
+for(c=c; c <= '{'; c++)
+{
+        _putchar(c);
+}
+_putchar('\n');
+return (0);
 }
