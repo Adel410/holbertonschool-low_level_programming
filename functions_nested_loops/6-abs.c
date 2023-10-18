@@ -5,7 +5,7 @@
  * Return: always 0 (succes)
  */
 
-int _abs(void)
+int _abs(int)
 {
 	int c;
 
