@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_alphabet_10x - print the alphabet 10x
- *
+ * print_alphabet_x10 - print the alphabet 10x
  * Return: void
  */
+
 void print_alphabet_x10(void)
 {
 	char c;
