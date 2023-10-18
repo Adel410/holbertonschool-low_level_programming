@@ -5,17 +5,15 @@
  * Return: always 0 (succes)
  */
 
-int _abs(void)
+int _abs(int)
 {
-	int c;
-
-	if (c < 0)
+	if (int < 0)
 	{
-		_putchar(c);
+		_putchar(int);
 	}
 	else
 	{
-		_putchar(c);
+		_putchar(int);
 	}
 return (0);
 }
