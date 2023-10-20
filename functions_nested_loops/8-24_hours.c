@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * jack_bauer - print every seconds
- * Return: 0 always success
+ * Return: void
  */
 
 void jack_bauer(void)
@@ -18,5 +18,4 @@ void jack_bauer(void)
 			_putchar(z % 10 + '0');
 			_putchar('\n');
 	}
-return (0);
 }
