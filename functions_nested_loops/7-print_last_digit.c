@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - print last digit of an imput's number
+ * @n: integer
  * Return: 0 always success
  */
 
