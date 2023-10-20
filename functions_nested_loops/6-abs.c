@@ -2,6 +2,7 @@
 
 /**
  * _abs - entry point
+ * @c: argument
  * Return: always 0 (succes)
  */
 
