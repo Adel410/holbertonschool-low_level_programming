@@ -4,9 +4,9 @@
  * Return: 0 always success
  */
 
-int print_last_digit(void)
+int print_last_digit(int n)
 {
-	int n, d;
+	int d;
 	d = n % 10;
 
 	_putchar(d);
